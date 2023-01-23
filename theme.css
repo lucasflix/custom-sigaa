@@ -1,11 +1,18 @@
-body {
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body,html {
+    color: white !important;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    font-family: "Inter", sans-serif;
 }
 
-body > a {
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
+a {
+    color: white !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
 }
 
 .sem-espacamento {
@@ -2895,13 +2902,6 @@ dd {
 
 .alert-danger .icone {
     color: #e9afaf
-}
-
-body,html {
-    height: 100%;
-    color: #6a727d;
-    font-family: Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #f6f6f4
 }
 
 li,ol,ul {

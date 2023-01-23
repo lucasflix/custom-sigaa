@@ -19,9 +19,13 @@ a {
     color: white !important;
 }
 
-.logo.pull-left, #barra-sistema {
+.logo.pull-left, #main-menu {
     background: rgb(67 56 202) !important;
     border-radius: 4px !important;
+}
+
+.logo.pull-left {
+    padding: 1em;
 }
 
 #painel-usuario {

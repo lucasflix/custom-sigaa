@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+* {
+    border-color: transparent;
+}
+
 body,html {
     color: white !important;
     background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100%;
     font-family: "Inter", sans-serif;
 }
@@ -30,11 +34,11 @@ a {
 
 #ufrn-cabecalho {
     width: 100%;
-    background-color: rgb(15 23 42)
+    background-color: transparent
 }
 
 #barra-sistema {
-    background-color: linear-gradient(to right, Crimson, GoldenRod, LightSeaGreen, SpringGreen);
+    background-color: transparent;
     min-height: 30px
 }
 
@@ -1372,7 +1376,8 @@ ul#paleta-cores li.cor12,ul#paleta-cores-horizontal li.cor12 {
     -webkit-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    background-color: rgb(15 23 42);
+    background-color: rgb(139 92 246);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
     font-size: 12px;
     padding: 10px 10px;
     margin: 0 0 20px 0
@@ -3406,11 +3411,11 @@ input#edtSenha,input#edtUsuario {
 }
 
 input#edtUsuario {
-    background: url(../img/ico_usuario.png) no-repeat 6px center
+    background: url(sigaa.ufpb.br/img/ico_usuario.png) no-repeat 6px center
 }
 
 input#edtSenha {
-    background: url(../img/ico_senha.png) no-repeat 7px center
+    background: url(sigaa.ufpb.br/img/ico_senha.png) no-repeat 7px center
 }
 
 input#edtSenha:focus,input#edtSenha:hover,input#edtUsuario:focus,input#edtUsuario:hover {
@@ -3881,7 +3886,7 @@ table>thead>tr>th {
     width: 100%;
     height: 162px;
     border-top: 1px solid #ccc;
-    background: #F1F1F2 url(../img/bg_noticia.png) no-repeat center top
+    background: #F1F1F2 url(sigaa.ufpb.br/img/bg_noticia.png) no-repeat center top
 }
 
 #area-noticias .ufrn-container {
@@ -3968,67 +3973,67 @@ table>thead>tr>th {
 }
 
 #public ul.area-menu a li.ico-academico,#public ul.area-menu li.ico-academico {
-    background: url(../img/ico_academico.png) no-repeat 5px 8px
+    background: url(sigaa.ufpb.br/img/ico_academico.png) no-repeat 5px 8px
 }
 
 #public ul.area-menu a li.ico-academico.on,#public ul.area-menu li.ico-academico.on {
-    background-image: url(../img/ico_academico_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_academico_on.png)
 }
 
 #public ul.area-menu a li.ico-biblioteca,#public ul.area-menu li.ico-biblioteca {
-    background: url(../img/ico_biblioteca.png) no-repeat 5px 10px
+    background: url(sigaa.ufpb.br/img/ico_biblioteca.png) no-repeat 5px 10px
 }
 
 #public ul.area-menu a li.ico-biblioteca.on,#public ul.area-menu li.ico-biblioteca.on {
-    background-image: url(../img/ico_biblioteca_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_biblioteca_on.png)
 }
 
 #public ul.area-menu a li.ico-ensino,#public ul.area-menu li.ico-ensino {
-    background: url(../img/ico_ensino.png) no-repeat 5px 8px
+    background: url(sigaa.ufpb.br/img/ico_ensino.png) no-repeat 5px 8px
 }
 
 #public ul.area-menu a li.ico-ensino.on,#public ul.area-menu li.ico-ensino.on {
-    background-image: url(../img/ico_ensino_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_ensino_on.png)
 }
 
 #public ul.area-menu a li.ico-extensao,#public ul.area-menu li.ico-extensao {
-    background: url(../img/ico_extensao.png) no-repeat 5px 9px
+    background: url(sigaa.ufpb.br/img/ico_extensao.png) no-repeat 5px 9px
 }
 
 #public ul.area-menu a li.ico-extensao.on,#public ul.area-menu li.ico-extensao.on {
-    background-image: url(../img/ico_extensao.png)
+    background-image: url(sigaa.ufpb.br/img/ico_extensao.png)
 }
 
 #public ul.area-menu a li.ico-pesquisa,#public ul.area-menu li.ico-pesquisa {
-    background: url(../img/ico_pesquisa.png) no-repeat 5px 9px
+    background: url(sigaa.ufpb.br/img/ico_pesquisa.png) no-repeat 5px 9px
 }
 
 #public ul.area-menu a li.ico-pesquisa.on,#public ul.area-menu li.ico-pesquisa.on {
-    background-image: url(../img/ico_pesquisa.png)
+    background-image: url(sigaa.ufpb.br/img/ico_pesquisa.png)
 }
 
 #public ul.area-menu a li.ico-processosseletivos,#public ul.area-menu li.ico-processosseletivos {
-    background: url(../img/ico_processosseletivos.png) no-repeat 5px 9px
+    background: url(sigaa.ufpb.br/img/ico_processosseletivos.png) no-repeat 5px 9px
 }
 
 #public ul.area-menu a li.ico-processosseletivos.on,#public ul.area-menu li.ico-processosseletivos.on {
-    background-image: url(../img/ico_processosseletivos.png)
+    background-image: url(sigaa.ufpb.br/img/ico_processosseletivos.png)
 }
 
 #public ul.area-menu a li.ico-tecnico,#public ul.area-menu li.ico-tecnico {
-    background: url(../img/ico_tecnico.png) no-repeat 5px 6px
+    background: url(sigaa.ufpb.br/img/ico_tecnico.png) no-repeat 5px 6px
 }
 
 #public ul.area-menu a li.ico-tecnico.on,#public ul.area-menu li.ico-tecnico.on {
-    background-image: url(../img/ico_tecnico.png)
+    background-image: url(sigaa.ufpb.br/img/ico_tecnico.png)
 }
 
 #public ul.area-menu a li.ico-ouvidoria,#public ul.area-menu li.ico-ouvidoria {
-    background: url(../img/ico_ouvidoria.png) no-repeat 5px 8px
+    background: url(sigaa.ufpb.br/img/ico_ouvidoria.png) no-repeat 5px 8px
 }
 
 #public ul.area-menu a li.ico-ouvidoria.on,#public ul.area-menu li.ico-ouvidoria.on {
-    background-image: url(../img/ico_ouvidoria.png)
+    background-image: url(sigaa.ufpb.br/img/ico_ouvidoria.png)
 }
 
 #public ul.area-menu a li.on,#public ul.area-menu li.on {
@@ -4037,7 +4042,7 @@ table>thead>tr>th {
 }
 
 #public ul.area-menu a li.sub-itens,#public ul.area-menu li.sub-itens {
-    background: url(../img/ico_subitens.png) no-repeat 178px 10px
+    background: url(sigaa.ufpb.br/img/ico_subitens.png) no-repeat 178px 10px
 }
 
 #public ul.area-menu a li ol,#public ul.area-menu li ol {
@@ -4051,19 +4056,19 @@ table>thead>tr>th {
 }
 
 #public ul.area-menu a li ol li.ico-latosensu,#public ul.area-menu li ol li.ico-latosensu {
-    background: url(../img/ico_latosensu.png) no-repeat 5px 10px
+    background: url(sigaa.ufpb.br/img/ico_latosensu.png) no-repeat 5px 10px
 }
 
 #public ul.area-menu a li ol li.ico-latosensu.on,#public ul.area-menu li ol li.ico-latosensu.on {
-    background-image: url(../img/ico_latosensu.png)
+    background-image: url(sigaa.ufpb.br/img/ico_latosensu.png)
 }
 
 #public ul.area-menu a li ol li.ico-strictosensu,#public ul.area-menu li ol li.ico-strictosensu {
-    background: url(../img/ico_strictosensu.png) no-repeat 5px 8px
+    background: url(sigaa.ufpb.br/img/ico_strictosensu.png) no-repeat 5px 8px
 }
 
 #public ul.area-menu a li ol li.ico-strictosensu.on,#public ul.area-menu li ol li.ico-strictosensu.on {
-    background-image: url(../img/ico_strictosensu.png)
+    background-image: url(sigaa.ufpb.br/img/ico_strictosensu.png)
 }
 
 #public ul.area-menu a:hover {
@@ -4076,43 +4081,43 @@ table>thead>tr>th {
 }
 
 #public ul.area-menu a:hover li.ico-academico {
-    background-image: url(../img/ico_academico_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_academico_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-biblioteca {
-    background-image: url(../img/ico_biblioteca_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_biblioteca_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-ensino {
-    background-image: url(../img/ico_ensino_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_ensino_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-extensao {
-    background-image: url(../img/ico_extensao_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_extensao_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-pesquisa {
-    background-image: url(../img/ico_pesquisa_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_pesquisa_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-latosensu {
-    background-image: url(../img/ico_latosensu_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_latosensu_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-strictosensu {
-    background-image: url(../img/ico_strictosensu_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_strictosensu_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-processosseletivos {
-    background-image: url(../img/ico_processosseletivos_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_processosseletivos_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-tecnico {
-    background-image: url(../img/ico_tecnico_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_tecnico_on.png)
 }
 
 #public ul.area-menu a:hover li.ico-ouvidoria {
-    background-image: url(../img/ico_ouvidoria_on.png)
+    background-image: url(sigaa.ufpb.br/img/ico_ouvidoria_on.png)
 }
 
 #public .col-md-9 {
@@ -4272,7 +4277,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: 0 -155px;
     width: 24px;
     height: 24px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4288,7 +4293,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -24px -155px;
     width: 24px;
     height: 24px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4304,7 +4309,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -48px -155px;
     width: 24px;
     height: 24px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4320,7 +4325,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -72px -155px;
     width: 24px;
     height: 24px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4336,7 +4341,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -96px -155px;
     width: 24px;
     height: 24px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4349,7 +4354,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-trocar-vinculo {
-    background-image: url(../img/ico_trocar_vinculo_24x24.png);
+    background-image: url(sigaa.ufpb.br/img/ico_trocar_vinculo_24x24.png);
     background-repeat: no-repeat;
     background-position: center center;
     display: inline-block;
@@ -4364,7 +4369,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-frequencia {
-    background-image: url(../img/ico_frequencia_24x24.png);
+    background-image: url(sigaa.ufpb.br/img/ico_frequencia_24x24.png);
     background-repeat: no-repeat;
     background-position: center center;
     display: inline-block;
@@ -4382,7 +4387,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: 0 -180px;
     width: 24px;
     height: 24px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4392,7 +4397,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -24px -180px;
     width: 24px;
     height: 24px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4402,7 +4407,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -48px -180px;
     width: 24px;
     height: 24px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4412,7 +4417,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: 0 5px;
     width: 50px;
     height: 50px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4422,7 +4427,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -50px 5px;
     width: 50px;
     height: 50px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4432,7 +4437,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -100px 5px;
     width: 50px;
     height: 50px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4442,7 +4447,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -150px 5px;
     width: 50px;
     height: 50px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4452,7 +4457,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -200px 5px;
     width: 50px;
     height: 50px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4462,7 +4467,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -250px 5px;
     width: 50px;
     height: 50px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4472,7 +4477,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -300px 5px;
     width: 50px;
     height: 50px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4482,7 +4487,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -350px 5px;
     width: 50px;
     height: 50px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4491,7 +4496,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 .icone-comunicado-familiar {
     width: 50px;
     height: 50px;
-    background-image: url(../img/ico_comunicado_51x51.png);
+    background-image: url(sigaa.ufpb.br/img/ico_comunicado_51x51.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4500,7 +4505,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 .icone-declaracao-vinculo {
     width: 50px;
     height: 50px;
-    background-image: url(../img/ico_declaracao_vinculo_51x51.png);
+    background-image: url(sigaa.ufpb.br/img/ico_declaracao_vinculo_51x51.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4509,7 +4514,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 .icone-historico {
     width: 50px;
     height: 50px;
-    background-image: url(../img/ico_historico_51x51.png);
+    background-image: url(sigaa.ufpb.br/img/ico_historico_51x51.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4518,7 +4523,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 .icone-boletim {
     width: 50px;
     height: 50px;
-    background-image: url(../img/ico_boletim_51x51.png);
+    background-image: url(sigaa.ufpb.br/img/ico_boletim_51x51.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative
@@ -4528,7 +4533,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: 0 -65px;
     width: 30px;
     height: 30px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4544,7 +4549,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -60px -65px;
     width: 30px;
     height: 30px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4560,7 +4565,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -120px -65px;
     width: 30px;
     height: 30px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4576,7 +4581,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -180px -65px;
     width: 30px;
     height: 30px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4589,7 +4594,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-sair {
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4599,7 +4604,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .marca-ufrn {
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4609,7 +4614,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .marca-sinfo {
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4622,7 +4627,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -80px -126px;
     width: 25px;
     height: 25px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4638,7 +4643,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -105px -126px;
     width: 25px;
     height: 25px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4654,7 +4659,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -130px -126px;
     width: 25px;
     height: 25px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4670,7 +4675,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
     background-position: -155px -126px;
     width: 25px;
     height: 25px;
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -4683,7 +4688,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-infantil {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4697,7 +4702,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-fundamental {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4711,7 +4716,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-medio {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4725,7 +4730,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-tecnico {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4739,7 +4744,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-tecnico-integrado {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4753,7 +4758,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-formacao-complementar {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4767,7 +4772,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-graducao {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4781,7 +4786,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-lato-sensu {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4795,7 +4800,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-stricto-sensu {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4809,7 +4814,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-imd {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4823,7 +4828,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-ensino-rede {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4837,7 +4842,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-ead {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4851,7 +4856,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-residencia-saude {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4865,7 +4870,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-extensao {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4879,7 +4884,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-pesquisa {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4893,7 +4898,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-acoes-associadas {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4907,7 +4912,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-monitoria {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4921,7 +4926,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-assistencia-estudantil {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4935,7 +4940,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-biblioteca {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4949,7 +4954,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-diplomas {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4963,7 +4968,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-convenios-estagio {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4977,7 +4982,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-avaliacao-institucional {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -4991,7 +4996,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-nee {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5005,7 +5010,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-relacoes-internacionais {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5019,7 +5024,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-ambientes-virtuais {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5033,7 +5038,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-estrutura-fisica {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5047,7 +5052,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-pap {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5061,7 +5066,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-vetibuar {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5075,7 +5080,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-ouvidoria {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5089,7 +5094,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-producao-intelectual {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5103,7 +5108,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-docente {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5117,7 +5122,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-discente {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5131,7 +5136,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-coord-graducao {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5145,7 +5150,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-coord-lato {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5159,7 +5164,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-coord-stricto {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5173,7 +5178,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-coord-polo {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5187,7 +5192,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-tutor {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5201,7 +5206,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-imd {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5215,7 +5220,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-cpdi {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5229,7 +5234,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-reitoria {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5243,7 +5248,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-relatorios-gestao {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5257,7 +5262,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-estagio {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5271,7 +5276,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-ensino-rede {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5285,7 +5290,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-portal-familiar {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5299,7 +5304,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-sigaa {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5313,7 +5318,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-sipac {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5327,7 +5332,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-sigrh {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5341,7 +5346,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-sigadmin {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5355,7 +5360,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-sigpp {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5369,7 +5374,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-siged {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5383,7 +5388,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-sigeleicao {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5397,7 +5402,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-sigeventos {
-    background-image: url(../img/icones_modulos_ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones_modulos_ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 66px;
@@ -5411,7 +5416,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-favorito {
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -5426,7 +5431,7 @@ div.yui-ext-tabbody .aba ul li ul li:last-child {
 }
 
 .icone-chat {
-    background-image: url(../img/icones-pacote-ufrn.png);
+    background-image: url(sigaa.ufpb.br/img/icones-pacote-ufrn.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -7001,7 +7006,7 @@ table.visualizacao>tbody {
 }
 
 td.obrigatorio,td.required,th.obrigatorio,th.required {
-    background: url(../../img/required.gif) no-repeat right;
+    background: url(sigaa.ufpb.br/sigaa.ufpb.br/img/required.gif) no-repeat right;
     padding-right: 13px!important
 }
 
@@ -7013,18 +7018,18 @@ div.obrigatorio {
 }
 
 div.obrigatorio::before {
-    content: url(../../img/required.gif);
+    content: url(sigaa.ufpb.br/sigaa.ufpb.br/img/required.gif);
     padding-right: 4px
 }
 
 div.obrigatorioModalPanel {
-    background: url(../../../img/required.gif) no-repeat;
+    background: url(sigaa.ufpb.br/sigaa.ufpb.br/sigaa.ufpb.br/img/required.gif) no-repeat;
     font-size: .9em;
     margin: auto 30%
 }
 
 span.obrigatorio {
-    background: url(../../img/required.gif) no-repeat right;
+    background: url(sigaa.ufpb.br/sigaa.ufpb.br/img/required.gif) no-repeat right;
     padding-right: 13px
 }
 
